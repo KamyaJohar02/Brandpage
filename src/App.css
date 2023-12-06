@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+  :root {
+    --red: #D01C28;
+    --gray: #2e2e2e;
+  }
+
+  *{
+    margin: 0;
+  }
+  
+ body{
+  font-family: "Poppins", sans-serif;
+ }
+
+ button{
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 1000;
+ }
+
+
+nav{
+  
+  display:flex;
+  justify-content:space-between;
+  max-width:1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+    
+}
+
+nav ul{
+  display: flex;
+  list-style:none;
+  gap:24px;
+  color: var(--gray);
+}
+
+nav ul li{
+  color: var(--gray);
+  font-weight: bolder;
+}
+
+.hero{
+  display:flex;
+  max-width:1280px;
+  margin: 0 auto;
+  align-items:center;
+  height:calc(100vh-72px);
+}
+
+
+.heroImage{
+  width:530px ;
+  height: 487.06px ;
+
+}
+
+
+.heroButtons{
+  display:flex;
+  gap:40px;
+}
+
+.secondaryButton{
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
+
+.heroShopping p{
+  margin-bottom: 8px;
+}
+
+.brandIcons{
+  display: flex;
+  gap:16px;
+}
+
+.heroContent{
+  display:flex;
+  flex-direction: column;
+  gap:36px;
+}
+
+.heroContent p{
+  max-width: 404px;
+}
